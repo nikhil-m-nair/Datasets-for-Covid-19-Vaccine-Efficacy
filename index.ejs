@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Upload Form</title>
+	<style>
+		h1 { color:black;
+		            font-size: 40px;
+		                text-align: center;
+		                font-family:"Courier New",monospace;}
+		            p1{ color: black;
+		                font-size: 20px;
+		                font-family:"Courier New",monospace;
+		                    text-align: center;}
+		            body { background-image: url("https://www.wallpaperflare.com/static/669/417/160/nature-blue-mountains-gray-wallpaper.jpg");
+		margin: 5;
+		padding: 0;
+		border: 2px solid #000000;
+		}
+		.center {
+		
+		  margin: 0;
+		  padding: 100;
+		border: 5px solid white;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  -ms-transform: translate(-50%, -50%);
+		  transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+
+<body>
+	<h1>
+            <b>UPLOAD FORM HERE</b></h1>
+	<div class="center">
+		<form action="/uploads" method="POST" enctype="multipart/form-data">
+			<input type="file" name="avatar" />
+			<button type="Submit">Upload</button>
+		</form>
+	</div>
+	<p1><b>OR
+    Fill The Google Form Here- <a href="https://docs.google.com/forms/d/e/1FAIpQLSez4MjeVOHossWn1b6eZLdl9MTQ77BZBQyaedC5GIB0l9niZQ/viewform?usp=sf_link">GFORM</a> </b>
+	</p1>
+</body>
+</head>
+
+</html>
